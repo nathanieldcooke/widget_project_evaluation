@@ -45,7 +45,7 @@ class Folder extends React.Component {
         const titles = this.props.folders.map(folder => folder.title)
 
         return (
-            <div>
+            <div id='folder-container'>
                 <h1>Folder</h1>
                 <div className='tabs'>
                     <Headers

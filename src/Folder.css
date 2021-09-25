@@ -7,11 +7,16 @@
 
 .tabs > ul {
     display: flex;
+    width: 50%;
 }
 
 .tabs > ul > li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     border: solid black 2px;
-    padding: .05em .5em;
+    /* padding: .05em .5em; */
+    padding-top: .05em;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: blue;
@@ -29,3 +34,11 @@
     background-color: red;
 }
 
+#folder-container {
+    background-color: coral;
+} 
+
+.tab-content {
+    background-color: white;
+    width: 50%;
+}
