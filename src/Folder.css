@@ -1,0 +1,31 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs > ul {
+    display: flex;
+}
+
+.tabs > ul > li {
+    border: solid black 2px;
+    padding: .05em .5em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.tabs > ul > li:hover {
+    background-color: cyan;
+    color: black;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.tabs > ul > li.active {
+    background-color: red;
+}
+
