@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.clock-widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(87, 40, 2);
+}
+
+.clock-widget > div {
+  color: burlywood;
+  font-weight: bolder;
+}
