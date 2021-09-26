@@ -1,4 +1,8 @@
 #search-container {
+    /* height: 5em; */
+    height: 100%;
+    padding: 1em;
+    background-color: brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,6 +10,7 @@
 }
 
 #search {
+ background-color: white;
  width: 10em;
 }
 

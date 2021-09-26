@@ -43,18 +43,23 @@ class Autocomplete extends React.Component {
         return (
             <div id='search-container'>
                 <div id='search'>
+                    <label>name: </label>
                     <input 
                         type='text'   
                         name='name' 
                         value={this.state.inputVal} 
                         onChange={this.handleChange.bind(this)}
                     />
+                    {
+                    this.state.inputVal ?
                     <ul>
                         {areMatches ? 
                         liArr :
                         <li>no matches</li> 
                         }
-                    </ul>
+                    </ul> :
+                    null 
+                    }
                 </div>
             </div>
         )
