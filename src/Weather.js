@@ -20,13 +20,13 @@ class Weather extends React.Component {
     }
 
     pollWeather = async ({lat, lon}) => {
-        // console.log(lat, lon)
-        // let res = await fetch(`api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=6d3c2aba2c258cb69cef6a647af0334d`)
-        // console.log("RES STATUS", res.status)
-        // console.log('hellooooooooog')
-        // console.log(res)
-        // res = await res.json()
-        // console.log(res)
+        console.log(lat, lon)
+        let res = await fetch(`api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=6d3c2aba2c258cb69cef6a647af0334d`)
+        console.log("RES STATUS", res.status)
+        console.log('hellooooooooog')
+        console.log(res)
+        res = await res.json()
+        console.log(res)
     }
 
     
@@ -38,7 +38,7 @@ class Weather extends React.Component {
     render = () => {
         return (
             <div>
-
+                Weather API Not Working
             </div>
         )
     }

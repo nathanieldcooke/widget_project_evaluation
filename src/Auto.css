@@ -1,0 +1,29 @@
+#search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+ width: 10em;
+}
+
+#search > input {
+    border: solid black 2px;
+    width: 100%;
+}
+
+#search > ul {
+    border: solid black 2px;
+    width: 100%;
+}
+
+#search > ul > li {
+    border-bottom: solid black 2px;
+}
+
+#search > ul > li:hover {
+    background-color: rgb(181, 245, 255);
+    cursor: pointer;
+}

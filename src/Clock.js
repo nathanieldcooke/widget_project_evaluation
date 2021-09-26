@@ -19,7 +19,6 @@ class Clock extends React.Component {
     }
 
     tick = () => {
-        console.log('hello')
         this.setState({time: new Date()})
     }
     

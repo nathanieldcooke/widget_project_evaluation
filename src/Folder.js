@@ -4,14 +4,12 @@ import './Folder.css'
 const Headers = ({ titles, currentTab, selectTab }) => {
 
     const handleClick = (e) => {
-        console.log('handleC')
         const idx = e.target.id
         selectTab(idx);
     }
 
 
     const tabs = titles.map((title, idx) => {
-        console.log(idx, currentTab)
         return (
             <li key={idx} id={idx} onClick={handleClick} className={(idx === Number(currentTab)) ? 'active' : ''}>
                 {title}
